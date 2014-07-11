@@ -1,0 +1,14 @@
+center
+{
+  color:blue;
+  background-color:orange;
+  padding:2.5%;
+  font-size:40px;
+  font-family:helvetica;
+  transition:2.7s;
+}
+center:hover
+{
+  background-color:Purple;
+  color:Blue; 
+}
