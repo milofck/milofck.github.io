@@ -2,13 +2,18 @@ center
 {
   color:blue;
   background-color:orange;
-  padding:2.5%;
-  font-size:40px;
-  font-family:helvetica;
+  padding:10%;
+  font-size:45px;
+  font-family:Comic Sans MS;
   transition:2.7s;
 }
 center:hover
 {
   background-color:Purple;
   color:Blue; 
+}
+img
+{
+  height:250;
+  width:250;
 }
