@@ -5,15 +5,17 @@ center
   padding:10%;
   font-size:45px;
   font-family:Comic Sans MS;
-  transition:2.7s;
+  -o- transition:2.7s;
+   -webkit- transition:2.7s;
+    -moz- transition:2.7s;
 }
 center:hover
 {
-  background-color:Purple;
-  color:Blue; 
+  background-color:purple;
+  color:blue; 
 }
 img
 {
-  height:250;
-  width:250;
+  height:250px;
+  width:250px;
 }
