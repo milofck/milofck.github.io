@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
+ <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <meta charset="utf-8">
   <title>Milo's Website</title>
 </head>
 <body><img src="http://25.media.tumblr.com/tumblr_m9deytNZAX1qccp2lo1_r1_500.gif" alt="altimg">
    <center>Get 360 noscoped fejit</center>
-  <link rel="stylesheet" type="text/css" href="index.css">
+   <style>
+ div {
+    background: yellow;
+    border: 1px solid #AAA;
+    width: 80px;
+    height: 80px;
+    margin: 0 5px;
+    float: left;
+  }
+  div.colored {
+    background: green;
+  }
+  </style>
+
+ 
+<button id="run">Run</button>
+ 
+<div></div>
+<div id="mover"></div>
+<div></div>
+ 
+<script>
+$( "#run" ).click(function() {
+  $( "div:animated" ).toggleClass( "colored" );
+});
+ 
+function animateIt() {
+  $( "#mover" ).slideToggle( "slow", animateIt );
+}
+ 
+animateIt();
+</script>
 </body>
 </html>
