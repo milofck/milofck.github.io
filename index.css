@@ -4,10 +4,7 @@ center
   background-color:orange;
   padding:10%;
   font-size:45px;
-  font-family:Comic Sans MS;
-  -o- transition:2.7s;
-   -webkit- transition:2.7s;
-    -moz- transition:2.7s;
+  font-family:"ComicSans";
 }
 center:hover
 {
