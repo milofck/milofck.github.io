@@ -5,7 +5,12 @@ a{
   font-family:Helvetica;
   font-weight:300;
   margin:10px;
-  top:5%;
+  margin-top:5%;
   position:relative;
   text-align:center;
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
+  text-decoration-color:white;
 }
