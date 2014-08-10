@@ -19,4 +19,7 @@ a:hover{
 
 .NavBar{
 	position:absolute;
-	background-image: url('http://files.arroway-textures.de/catalog/images/maps/previews/preview_wood-078_zebrano-2-dark_d.jpg');}
+	width:10%;
+	background-image: url('http://files.arroway-textures.de/catalog/images/maps/previews/preview_wood-078_zebrano-2-dark_d.jpg');
+	
+}
