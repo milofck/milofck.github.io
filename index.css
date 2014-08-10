@@ -9,32 +9,27 @@ a{
   text-align:center;
   text-decoration:none;
   padding:2.5%;
-  
-  
-  
 }
 a:hover{
-  text-decoration:underline;
-  text-decoration-color:white;
-  
+  text-decoration:underline;  
 }
 
 .navbar{
-	margin-left: auto;
-        margin-right: auto;
 	position:relative;
 	width:100%;
   padding-top:2.5%;
   padding-bottom:2.5%;
 	background-image: url('http://files.arroway-textures.de/catalog/images/maps/previews/preview_wood-078_zebrano-2-dark_d.jpg');
-  box-shadow:10px 10px 10px black;
-	
+  box-shadow:10px 10px 10px black;	
 }
 .name{
 	color:#8A9294;
 	font-size:30px;
 	font-family:Helvetica;
   padding:2.5%;
- 
-	
+}
+/* Body */
+body{
+  font-family:Helvetica;
+  background-color:#222;
 }
