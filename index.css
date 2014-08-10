@@ -9,7 +9,6 @@ a{
   position:relative;
   text-align:center;
   text-decoration:none;
-  position:absolute;
   padding:2.5%;
   
 }
@@ -17,5 +16,7 @@ a:hover{
   text-decoration:underline;
   text-decoration-color:white;
 }
+
 .NavBar{
+	position:absolute;
 	background-image: url('http://files.arroway-textures.de/catalog/images/maps/previews/preview_wood-078_zebrano-2-dark_d.jpg');}
