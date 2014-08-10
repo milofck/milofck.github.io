@@ -1,18 +1,11 @@
-center
-{
-  color:blue;
-  background-color:orange;
-  padding:10%;
-  font-size:45px;
-  font-family:"ComicSans";
-}
-center:hover
-{
-  background-color:purple;
-  color:blue; 
-}
-img
-{
-  height:400px;
-  width:100%;
+/* NavBar shizz */
+a{
+  color:gray;
+  font-size:20px;
+  font-family:Helvetica;
+  font-weight:300;
+  margin:10px;
+  top:5%;
+  position:relative;
+  right:20px;
 }
