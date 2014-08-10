@@ -16,10 +16,10 @@ a:hover{
   text-decoration-color:white;
 }
 
-.center{
+.navbar{
 	margin-left: auto;
         margin-right: auto;
-	position:absolute;
+	position:relative;
 	width:30%;
 	background-image: url('http://files.arroway-textures.de/catalog/images/maps/previews/preview_wood-078_zebrano-2-dark_d.jpg');
 	
